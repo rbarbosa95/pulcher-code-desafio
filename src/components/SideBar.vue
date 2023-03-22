@@ -122,6 +122,7 @@ const resetForm = async () => {
               id="dateInput"
               v-model="formValues.date"
               required
+              data-cy="inputDate"
             />
             <label for="dateInput" class="app-text-default">Date Limite</label>
           </div>
@@ -132,12 +133,18 @@ const resetForm = async () => {
               id="priceInput"
               v-model.lazy="formValues.price"
               v-money3="config"
+              data-cy="inputPrice"
             />
             <label for="priceInput" class="app-text-default">Preço</label>
           </div>
 
           <div class="form-floating">
-            <select class="form-select mb-3" v-model="formValues.store" id="floatingSelect">
+            <select
+              class="form-select mb-3"
+              v-model="formValues.store"
+              id="floatingSelect"
+              data-cy="inputStore"
+            >
               <option disabled value="">Selecione um loja</option>
               <option v-for="category in categories" :value="category.id" :key="category.id">
                 {{ category.name }}
@@ -150,10 +157,17 @@ const resetForm = async () => {
             <button
               type="submit"
               class="app-btn w-100 d-block text-white py-2 px-3 rounded-1 app-bg-secondary"
+              date-cy="btnFilter"
+              id="btnFilter"
             >
               Filtrar
             </button>
-            <button type="button" @click="resetForm" class="btn btn-danger w-100">
+            <button
+              type="button"
+              @click="resetForm"
+              class="btn btn-danger w-100"
+              id="btnClearFilter"
+            >
               Limpar Filtros
             </button>
           </div>
