@@ -25,17 +25,25 @@ const formartCurrency = (value: number) => {
   })
 }
 
+const date = computed(() => {
+  return moment(props.game.purchase_date).format('L')
+})
+
+const price = computed(() => {
+  return formartCurrency(props.game.value)
+})
+
 moment.locale('pt-br')
 </script>
 
 <template>
   <div class="card-game bg-white rounded-2 p-3 shadow-sm">
     <div class="card-game__column">
-      <h3 class="card-game__title">{{ game.name }}</h3>
+      <h3 data-test="game-name" class="card-game__title">{{ game.name }}</h3>
       <div class="card-game__column-infos">
-        <span>{{ moment(game.purchase_date).format('L') }}</span>
-        <span>{{ shop?.name }}</span>
-        <span> {{ formartCurrency(game.value) }} </span>
+        <span data-test="game-date">{{ date }}</span>
+        <span data-test="game-store">{{ shop?.name }}</span>
+        <span data-test="game-value"> {{ price }} </span>
       </div>
     </div>
     <div class="card-game__column">

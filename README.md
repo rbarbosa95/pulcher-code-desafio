@@ -24,6 +24,8 @@ Stack Games é uma plataforma online que permite que você liste todos os seus j
 - [x] Filtro por datas
 - [x] Filtro por preço
 - [x] Filtro por Tipo de Loja
+- [x] Limpar Filtros
+- [x] Páginação da Litagem de Jogos
 
 ---
 
