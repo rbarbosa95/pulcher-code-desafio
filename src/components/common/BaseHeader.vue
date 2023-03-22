@@ -3,12 +3,12 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <header class="shadow px-5 py-3 d-flex justify-content-between">
+  <header class="shadow px-5 py-3 d-flex justify-content-center justify-content-sm-between">
     <RouterLink to="/">
       <img src="@/assets/svg/logo.svg" alt="Logo StackGames" />
     </RouterLink>
 
-    <div class="user-header d-flex gap-2 align-items-center">
+    <div class="d-none user-header d-sm-flex gap-2 align-items-center">
       <img class="img-fluid rounded-circle" src="@/assets/img/rbarbosa.png" alt="Ramon Barbosa" />
       <span class="text-bg-custom-color">Ramon Barbosa</span>
     </div>

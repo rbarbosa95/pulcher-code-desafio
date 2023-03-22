@@ -1,15 +1,16 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 import IconFilter from '@/components/icons/IconFilter.vue'
 import { useListGamesStore } from '@/stores/listGames'
 import { storeToRefs } from 'pinia'
 import CardGame from '@/components/cards/CardGame.vue'
 import SideBar from '@/components/SideBar.vue'
 import { computed } from 'vue'
+import { useWindowSize } from '@/composables/useWindowSize'
 
-const selectAll = ref(false)
 const store = useListGamesStore()
-const { games, loading, pagination } = storeToRefs(store)
+const { games, pagination } = storeToRefs(store)
+const { width } = useWindowSize()
 
 const filteredGames = computed(() => {
   const start = (pagination.value.page - 1) * pagination.value.limit
@@ -19,6 +20,10 @@ const filteredGames = computed(() => {
 
 const hasGames = computed(() => {
   return games.value.length > 0
+})
+
+const maxPagesShow = computed(() => {
+  return width.value < 768 ? 3 : 5
 })
 
 onMounted(() => {
@@ -33,18 +38,6 @@ onMounted(() => {
       <h1>Listagem de Jogos</h1>
 
       <div id="filter" class="d-flex gap-1">
-        <div class="shadow-sm bg-white p-2 rounded-1">
-          <div class="form-check form-switch">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              role="switch"
-              id="selectAll"
-              v-model="selectAll"
-            />
-            <label class="form-check-label" for="selectAll"> Selecionar todos </label>
-          </div>
-        </div>
         <button
           type="button"
           class="app-btn shadow text-bg-white py-2 px-3 rounded-1 app-bg-primary"
@@ -61,8 +54,8 @@ onMounted(() => {
       Não há jogos cadastrados
     </div>
 
-    <div class="row row-cols-5 mt-5 mb-2">
-      <div class="col mb-4" v-for="game in filteredGames" :key="game.id">
+    <div class="list-games-grid mt-3">
+      <div v-for="game in filteredGames" :key="game.id">
         <CardGame :game="game" />
       </div>
     </div>
@@ -71,10 +64,18 @@ onMounted(() => {
       v-show="pagination.total_pages > 1"
       :total-items="pagination.total"
       :items-per-page="pagination.limit"
-      :max-pages-shown="5"
+      :max-pages-shown="maxPagesShow"
       v-model="pagination.page"
     />
 
     <SideBar />
   </section>
 </template>
+
+<style lang="scss" scoped>
+.list-games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+</style>

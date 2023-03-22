@@ -5,7 +5,7 @@ import BaseHeader from '@/components/common/BaseHeader.vue'
 
 <template>
   <BaseHeader />
-  <main class="fluid-container px-5 mt-5">
+  <main class="fluid-container px-3 px-sm-5 mt-5">
     <RouterView />
   </main>
 </template>
