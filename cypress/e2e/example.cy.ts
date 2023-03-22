@@ -1,8 +1,8 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-describe('My First Test', () => {
-  it('visits the app root url', () => {
-    cy.visit('/')
-    cy.contains('h1', 'You did it!')
+describe('App tests', () => {
+  it('check if page renders', () => {
+    cy.visit('https://www.google.com')
+    cy.contains('Pesquisa Google').click()
   })
 })

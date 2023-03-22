@@ -1,0 +1,2422 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "The Oregon Trail",
+      "purchase_date": "2010-03-12T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 24.63
+    },
+    {
+      "id": 2,
+      "name": "Pong",
+      "purchase_date": "2022-08-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 139.5
+    },
+    {
+      "id": 3,
+      "name": "Zork",
+      "purchase_date": "2011-11-22T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 256.19
+    },
+    {
+      "id": 4,
+      "name": "Space Invaders",
+      "purchase_date": "2013-05-18T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 253.29
+    },
+    {
+      "id": 5,
+      "name": "Shoot 'em up",
+      "purchase_date": "2014-06-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 302.2
+    },
+    {
+      "id": 6,
+      "name": "Asteroids",
+      "purchase_date": "2016-08-19T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 19.12
+    },
+    {
+      "id": 7,
+      "name": "Shoot 'em up",
+      "purchase_date": "2010-09-03T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 77.23
+    },
+    {
+      "id": 8,
+      "name": "Adventure",
+      "purchase_date": "2013-10-21T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 135.27
+    },
+    {
+      "id": 9,
+      "name": "Missile Command",
+      "purchase_date": "2012-09-30T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 203.78
+    },
+    {
+      "id": 10,
+      "name": "Shoot 'em up",
+      "purchase_date": "2020-09-15T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 155.33
+    },
+    {
+      "id": 11,
+      "name": "Pac-Man",
+      "purchase_date": "2011-04-15T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 300.04
+    },
+    {
+      "id": 12,
+      "name": "Centipede",
+      "purchase_date": "2010-09-13T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 278.37
+    },
+    {
+      "id": 13,
+      "name": "Shoot 'em up",
+      "purchase_date": "2015-10-20T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 133.42
+    },
+    {
+      "id": 14,
+      "name": "Defender",
+      "purchase_date": "2011-03-01T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 79.51
+    },
+    {
+      "id": 15,
+      "name": "Shoot 'em up",
+      "purchase_date": "2010-06-28T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 207.19
+    },
+    {
+      "id": 16,
+      "name": "Donkey Kong",
+      "purchase_date": "2011-12-04T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 91.18
+    },
+    {
+      "id": 17,
+      "name": "Frogger",
+      "purchase_date": "2013-02-15T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 39.46
+    },
+    {
+      "id": 18,
+      "name": "Galaga",
+      "purchase_date": "2010-01-07T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 286.84
+    },
+    {
+      "id": 19,
+      "name": "Shoot 'em up",
+      "purchase_date": "2017-03-09T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 139.66
+    },
+    {
+      "id": 20,
+      "name": "Shoot 'em up",
+      "purchase_date": "2015-07-12T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 172.29
+    },
+    {
+      "id": 21,
+      "name": "Joust",
+      "purchase_date": "2020-06-14T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 118.02
+    },
+    {
+      "id": 22,
+      "name": "Ms. Pac-Man",
+      "purchase_date": "2010-03-23T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 123.58
+    },
+    {
+      "id": 23,
+      "name": "Pitfall!",
+      "purchase_date": "2020-02-26T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 126.83
+    },
+    {
+      "id": 24,
+      "name": "Robotron: 2084",
+      "purchase_date": "2014-04-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 94.46
+    },
+    {
+      "id": 25,
+      "name": "Shoot 'em up",
+      "purchase_date": "2015-09-12T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 309.14
+    },
+    {
+      "id": 26,
+      "name": "Lode Runner",
+      "purchase_date": "2016-05-13T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 52.71
+    },
+    {
+      "id": 27,
+      "name": "Shoot 'em up",
+      "purchase_date": "2022-11-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 172.21
+    },
+    {
+      "id": 28,
+      "name": "Tetris",
+      "purchase_date": "2015-01-01T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 261.09
+    },
+    {
+      "id": 29,
+      "name": "Gauntlet",
+      "purchase_date": "2022-01-23T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 197.45
+    },
+    {
+      "id": 30,
+      "name": "Ghosts'n Goblins",
+      "purchase_date": "2011-10-24T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 214.59
+    },
+    {
+      "id": 31,
+      "name": "Super Mario Bros.",
+      "purchase_date": "2011-08-10T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 256.14
+    },
+    {
+      "id": 32,
+      "name": "Bubble Bobble",
+      "purchase_date": "2013-07-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 178.51
+    },
+    {
+      "id": 33,
+      "name": "The Legend of Zelda",
+      "purchase_date": "2022-10-22T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 11.4
+    },
+    {
+      "id": 34,
+      "name": "Out Run",
+      "purchase_date": "2012-02-02T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 40.86
+    },
+    {
+      "id": 35,
+      "name": "Contra",
+      "purchase_date": "2019-11-07T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 199.6
+    },
+    {
+      "id": 36,
+      "name": "Run and gun",
+      "purchase_date": "2020-09-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 178.17
+    },
+    {
+      "id": 37,
+      "name": "Double Dragon",
+      "purchase_date": "2022-06-10T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 200.23
+    },
+    {
+      "id": 38,
+      "name": "Beat 'em up",
+      "purchase_date": "2015-06-11T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 95.85
+    },
+    {
+      "id": 39,
+      "name": "Mike Tyson's Punch-Out!!",
+      "purchase_date": "2015-11-23T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 151.47
+    },
+    {
+      "id": 40,
+      "name": "R-Type",
+      "purchase_date": "2017-06-29T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 165.48
+    },
+    {
+      "id": 41,
+      "name": "Shoot 'em up",
+      "purchase_date": "2023-09-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 15.68
+    },
+    {
+      "id": 42,
+      "name": "Sid Meier's Pirates!",
+      "purchase_date": "2015-06-20T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 148.15
+    },
+    {
+      "id": 43,
+      "name": "Mega Man 2",
+      "purchase_date": "2011-12-27T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 212.54
+    },
+    {
+      "id": 44,
+      "name": "Ninja Gaiden",
+      "purchase_date": "2013-11-25T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 241.56
+    },
+    {
+      "id": 45,
+      "name": "Super Mario Bros. 3",
+      "purchase_date": "2014-01-30T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 90.62
+    },
+    {
+      "id": 46,
+      "name": "Final Fight",
+      "purchase_date": "2010-06-23T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 124.97
+    },
+    {
+      "id": 47,
+      "name": "Beat 'em up",
+      "purchase_date": "2010-06-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 303.77
+    },
+    {
+      "id": 48,
+      "name": "Populous",
+      "purchase_date": "2010-01-18T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 203.92
+    },
+    {
+      "id": 49,
+      "name": "Prince of Persia",
+      "purchase_date": "2023-11-26T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 93.25
+    },
+    {
+      "id": 50,
+      "name": "SimCity",
+      "purchase_date": "2011-01-05T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 154.44
+    },
+    {
+      "id": 51,
+      "name": "The Secret of Monkey Island",
+      "purchase_date": "2016-09-23T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 132.88
+    },
+    {
+      "id": 52,
+      "name": "Super Mario World",
+      "purchase_date": "2012-06-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 246
+    },
+    {
+      "id": 53,
+      "name": "Another World",
+      "purchase_date": "2014-09-09T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 101.47
+    },
+    {
+      "id": 54,
+      "name": "Civilization",
+      "purchase_date": "2020-06-29T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 232.97
+    },
+    {
+      "id": 55,
+      "name": "The Legend of Zelda: A Link to the Past",
+      "purchase_date": "2010-09-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 139.45
+    },
+    {
+      "id": 56,
+      "name": "Lemmings",
+      "purchase_date": "2020-05-06T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 114.36
+    },
+    {
+      "id": 57,
+      "name": "Monkey Island 2: LeChuck's Revenge",
+      "purchase_date": "2018-09-16T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 29.77
+    },
+    {
+      "id": 58,
+      "name": "Sonic the Hedgehog",
+      "purchase_date": "2018-10-15T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 170.98
+    },
+    {
+      "id": 59,
+      "name": "Street Fighter II",
+      "purchase_date": "2020-10-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 16.9
+    },
+    {
+      "id": 60,
+      "name": "Super Castlevania IV",
+      "purchase_date": "2013-01-22T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 163.79
+    },
+    {
+      "id": 61,
+      "name": "Alone in the Dark",
+      "purchase_date": "2021-07-05T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 156.08
+    },
+    {
+      "id": 62,
+      "name": "Survival horror",
+      "purchase_date": "2016-05-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 63.54
+    },
+    {
+      "id": 63,
+      "name": "Contra III: The Alien Wars",
+      "purchase_date": "2010-11-19T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 295.09
+    },
+    {
+      "id": 64,
+      "name": "Run and gun",
+      "purchase_date": "2022-08-30T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 129.17
+    },
+    {
+      "id": 65,
+      "name": "Dune II",
+      "purchase_date": "2013-08-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 40.92
+    },
+    {
+      "id": 66,
+      "name": "Flashback",
+      "purchase_date": "2013-10-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 10.22
+    },
+    {
+      "id": 67,
+      "name": "Indiana Jones and the Fate of Atlantis",
+      "purchase_date": "2012-01-01T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 91.63
+    },
+    {
+      "id": 68,
+      "name": "Mortal Kombat",
+      "purchase_date": "2016-10-16T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 156.84
+    },
+    {
+      "id": 69,
+      "name": "Sensible Soccer",
+      "purchase_date": "2010-12-02T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 55.76
+    },
+    {
+      "id": 70,
+      "name": "Sonic the Hedgehog 2",
+      "purchase_date": "2019-03-21T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 79.41
+    },
+    {
+      "id": 71,
+      "name": "Star Control II",
+      "purchase_date": "2014-12-12T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 191.45
+    },
+    {
+      "id": 72,
+      "name": "Streets of Rage 2",
+      "purchase_date": "2012-08-28T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 66.96
+    },
+    {
+      "id": 73,
+      "name": "Beat 'em up",
+      "purchase_date": "2016-03-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 23.49
+    },
+    {
+      "id": 74,
+      "name": "Super Mario Kart",
+      "purchase_date": "2023-05-10T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 152.48
+    },
+    {
+      "id": 75,
+      "name": "Virtua Racing",
+      "purchase_date": "2019-05-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 27.18
+    },
+    {
+      "id": 76,
+      "name": "Wolfenstein 3D",
+      "purchase_date": "2017-11-22T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 157.69
+    },
+    {
+      "id": 77,
+      "name": "Day of the Tentacle",
+      "purchase_date": "2017-09-13T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 194.75
+    },
+    {
+      "id": 78,
+      "name": "Daytona USA",
+      "purchase_date": "2015-06-22T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 232.73
+    },
+    {
+      "id": 79,
+      "name": "Doom",
+      "purchase_date": "2020-02-26T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 142.23
+    },
+    {
+      "id": 80,
+      "name": "Gunstar Heroes",
+      "purchase_date": "2016-09-04T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 246.93
+    },
+    {
+      "id": 81,
+      "name": "Run and gun",
+      "purchase_date": "2014-11-09T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 114.66
+    },
+    {
+      "id": 82,
+      "name": "The Legend of Zelda: Link's Awakening",
+      "purchase_date": "2020-08-22T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 42.13
+    },
+    {
+      "id": 83,
+      "name": "Mega Man X",
+      "purchase_date": "2016-02-17T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 51.5
+    },
+    {
+      "id": 84,
+      "name": "Mortal Kombat II",
+      "purchase_date": "2013-09-25T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 130.64
+    },
+    {
+      "id": 85,
+      "name": "Myst",
+      "purchase_date": "2015-03-30T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 112.58
+    },
+    {
+      "id": 86,
+      "name": "NBA Jam",
+      "purchase_date": "2020-08-06T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 307.42
+    },
+    {
+      "id": 87,
+      "name": "Phantasy Star IV",
+      "purchase_date": "2020-10-04T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 81.64
+    },
+    {
+      "id": 88,
+      "name": "Secret of Mana",
+      "purchase_date": "2023-02-02T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 64.62
+    },
+    {
+      "id": 89,
+      "name": "SimCity 2000",
+      "purchase_date": "2013-04-23T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 268.94
+    },
+    {
+      "id": 90,
+      "name": "Star Fox",
+      "purchase_date": "2022-07-02T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 253.68
+    },
+    {
+      "id": 91,
+      "name": "Shoot 'em up",
+      "purchase_date": "2010-02-03T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 75.2
+    },
+    {
+      "id": 92,
+      "name": "Donkey Kong Country",
+      "purchase_date": "2022-03-25T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 130.38
+    },
+    {
+      "id": 93,
+      "name": "Doom II",
+      "purchase_date": "2011-05-20T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 158.49
+    },
+    {
+      "id": 94,
+      "name": "EarthBound",
+      "purchase_date": "2014-07-13T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 106.35
+    },
+    {
+      "id": 95,
+      "name": "Final Fantasy VI",
+      "purchase_date": "2012-05-01T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 105.58
+    },
+    {
+      "id": 96,
+      "name": "Sega Rally Championship",
+      "purchase_date": "2021-02-19T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 307.7
+    },
+    {
+      "id": 97,
+      "name": "Sensible World of Soccer",
+      "purchase_date": "2014-03-07T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 125.6
+    },
+    {
+      "id": 98,
+      "name": "Super Metroid",
+      "purchase_date": "2023-12-26T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 175.97
+    },
+    {
+      "id": 99,
+      "name": "X-COM: UFO Defense",
+      "purchase_date": "2015-08-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 111.34
+    },
+    {
+      "id": 100,
+      "name": "Chrono Trigger",
+      "purchase_date": "2021-03-28T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 209.72
+    },
+    {
+      "id": 101,
+      "name": "Command &amp; Conquer",
+      "purchase_date": "2015-12-14T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 170.69
+    },
+    {
+      "id": 102,
+      "name": "MechWarrior 2: 31st Century Combat",
+      "purchase_date": "2014-03-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 209.23
+    },
+    {
+      "id": 103,
+      "name": "Warcraft II: Tides of Darkness",
+      "purchase_date": "2020-01-15T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 56
+    },
+    {
+      "id": 104,
+      "name": "Yoshi's Island",
+      "purchase_date": "2022-07-10T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 62.36
+    },
+    {
+      "id": 105,
+      "name": "Civilization II",
+      "purchase_date": "2017-11-06T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 80.79
+    },
+    {
+      "id": 106,
+      "name": "Command &amp; Conquer: Red Alert",
+      "purchase_date": "2012-06-21T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 131.41
+    },
+    {
+      "id": 107,
+      "name": "Duke Nukem 3D",
+      "purchase_date": "2016-09-06T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 159.79
+    },
+    {
+      "id": 108,
+      "name": "Mario Kart 64",
+      "purchase_date": "2016-12-18T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 148.04
+    },
+    {
+      "id": 109,
+      "name": "Nights into Dreams...",
+      "purchase_date": "2022-12-26T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 91.46
+    },
+    {
+      "id": 110,
+      "name": "PaRappa the Rapper",
+      "purchase_date": "2022-09-23T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 303.43
+    },
+    {
+      "id": 111,
+      "name": "Quake",
+      "purchase_date": "2014-08-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 242.75
+    },
+    {
+      "id": 112,
+      "name": "Resident Evil",
+      "purchase_date": "2017-05-15T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 304.04
+    },
+    {
+      "id": 113,
+      "name": "Survival horror",
+      "purchase_date": "2014-04-05T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 302.05
+    },
+    {
+      "id": 114,
+      "name": "Super Mario 64",
+      "purchase_date": "2020-01-13T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 14.25
+    },
+    {
+      "id": 115,
+      "name": "Tekken 3",
+      "purchase_date": "2023-03-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 215.83
+    },
+    {
+      "id": 116,
+      "name": "Tomb Raider",
+      "purchase_date": "2019-05-04T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 107.05
+    },
+    {
+      "id": 117,
+      "name": "Wave Race 64",
+      "purchase_date": "2011-01-28T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 264.75
+    },
+    {
+      "id": 118,
+      "name": "Age of Empires",
+      "purchase_date": "2011-05-13T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 276.92
+    },
+    {
+      "id": 119,
+      "name": "Castlevania: Symphony of the Night",
+      "purchase_date": "2016-02-11T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 123.23
+    },
+    {
+      "id": 120,
+      "name": "Diablo",
+      "purchase_date": "2013-04-25T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 54.05
+    },
+    {
+      "id": 121,
+      "name": "Fallout",
+      "purchase_date": "2011-10-09T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 21.86
+    },
+    {
+      "id": 122,
+      "name": "Final Fantasy Tactics",
+      "purchase_date": "2016-04-05T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 163.62
+    },
+    {
+      "id": 123,
+      "name": "Final Fantasy VII",
+      "purchase_date": "2013-02-27T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 55.92
+    },
+    {
+      "id": 124,
+      "name": "GoldenEye 007",
+      "purchase_date": "2013-03-04T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 60.28
+    },
+    {
+      "id": 125,
+      "name": "Gran Turismo",
+      "purchase_date": "2022-05-09T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 216.75
+    },
+    {
+      "id": 126,
+      "name": "Quake II",
+      "purchase_date": "2020-04-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 165.58
+    },
+    {
+      "id": 127,
+      "name": "Star Fox 64",
+      "purchase_date": "2019-08-03T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 134.47
+    },
+    {
+      "id": 128,
+      "name": "Shoot 'em up",
+      "purchase_date": "2015-12-30T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 255
+    },
+    {
+      "id": 129,
+      "name": "Star Wars Jedi Knight: Dark Forces II",
+      "purchase_date": "2021-01-20T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 256.73
+    },
+    {
+      "id": 130,
+      "name": "Total Annihilation",
+      "purchase_date": "2023-02-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 129.19
+    },
+    {
+      "id": 131,
+      "name": "Ultima Online",
+      "purchase_date": "2011-03-31T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 117.47
+    },
+    {
+      "id": 132,
+      "name": "Baldur's Gate",
+      "purchase_date": "2022-03-06T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 53.11
+    },
+    {
+      "id": 133,
+      "name": "Crash Bandicoot: Warped",
+      "purchase_date": "2014-07-28T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 52.98
+    },
+    {
+      "id": 134,
+      "name": "Fallout 2",
+      "purchase_date": "2021-09-22T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 298.52
+    },
+    {
+      "id": 135,
+      "name": "Grim Fandango",
+      "purchase_date": "2014-01-24T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 252.91
+    },
+    {
+      "id": 136,
+      "name": "Half-Life",
+      "purchase_date": "2010-11-29T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 219.88
+    },
+    {
+      "id": 137,
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "purchase_date": "2021-04-22T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 129.43
+    },
+    {
+      "id": 138,
+      "name": "Metal Gear Solid",
+      "purchase_date": "2010-01-10T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 267.27
+    },
+    {
+      "id": 139,
+      "name": "Resident Evil 2",
+      "purchase_date": "2014-07-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 227.05
+    },
+    {
+      "id": 140,
+      "name": "Survival horror",
+      "purchase_date": "2012-03-08T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 49.63
+    },
+    {
+      "id": 141,
+      "name": "SoulCalibur",
+      "purchase_date": "2014-07-17T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 40.76
+    },
+    {
+      "id": 142,
+      "name": "StarCraft",
+      "purchase_date": "2012-11-21T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 117.1
+    },
+    {
+      "id": 143,
+      "name": "Suikoden II",
+      "purchase_date": "2016-08-05T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 267.73
+    },
+    {
+      "id": 144,
+      "name": "Thief: The Dark Project",
+      "purchase_date": "2021-10-19T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 263.39
+    },
+    {
+      "id": 145,
+      "name": "Age of Empires II",
+      "purchase_date": "2018-07-25T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 238.3
+    },
+    {
+      "id": 146,
+      "name": "EverQuest",
+      "purchase_date": "2020-12-21T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 186.59
+    },
+    {
+      "id": 147,
+      "name": "Planescape: Torment",
+      "purchase_date": "2019-06-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 44.23
+    },
+    {
+      "id": 148,
+      "name": "Quake III Arena",
+      "purchase_date": "2019-06-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 25.58
+    },
+    {
+      "id": 149,
+      "name": "Shenmue",
+      "purchase_date": "2018-11-17T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 50.46
+    },
+    {
+      "id": 150,
+      "name": "Silent Hill",
+      "purchase_date": "2018-09-14T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 169.5
+    },
+    {
+      "id": 151,
+      "name": "Survival horror",
+      "purchase_date": "2017-02-03T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 218.76
+    },
+    {
+      "id": 152,
+      "name": "Unreal Tournament",
+      "purchase_date": "2013-04-01T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 68.81
+    },
+    {
+      "id": 153,
+      "name": "Baldur's Gate II: Shadows of Amn",
+      "purchase_date": "2012-07-21T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 195.6
+    },
+    {
+      "id": 154,
+      "name": "Counter-Strike",
+      "purchase_date": "2010-05-24T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 264.68
+    },
+    {
+      "id": 155,
+      "name": "Deus Ex",
+      "purchase_date": "2018-10-21T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 232.29
+    },
+    {
+      "id": 156,
+      "name": "Diablo II",
+      "purchase_date": "2014-06-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 232.8
+    },
+    {
+      "id": 157,
+      "name": "Jet Set Radio",
+      "purchase_date": "2021-04-11T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 112.44
+    },
+    {
+      "id": 158,
+      "name": "The Legend of Zelda: Majora's Mask",
+      "purchase_date": "2020-09-26T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 227.08
+    },
+    {
+      "id": 159,
+      "name": "The Sims",
+      "purchase_date": "2022-06-18T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 306.87
+    },
+    {
+      "id": 160,
+      "name": "Thief II: The Metal Age",
+      "purchase_date": "2012-12-17T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 290.76
+    },
+    {
+      "id": 161,
+      "name": "Tony Hawk's Pro Skater 2",
+      "purchase_date": "2017-11-14T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 27.12
+    },
+    {
+      "id": 162,
+      "name": "Advance Wars",
+      "purchase_date": "2010-11-03T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 117.54
+    },
+    {
+      "id": 163,
+      "name": "Animal Crossing",
+      "purchase_date": "2012-10-03T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 234.02
+    },
+    {
+      "id": 164,
+      "name": "Devil May Cry",
+      "purchase_date": "2022-04-05T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 14.47
+    },
+    {
+      "id": 165,
+      "name": "Final Fantasy X",
+      "purchase_date": "2022-06-03T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 300.96
+    },
+    {
+      "id": 166,
+      "name": "Gran Turismo 3: A-Spec",
+      "purchase_date": "2017-11-08T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 100.72
+    },
+    {
+      "id": 167,
+      "name": "Grand Theft Auto III",
+      "purchase_date": "2015-01-18T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 249.5
+    },
+    {
+      "id": 168,
+      "name": "Halo: Combat Evolved",
+      "purchase_date": "2012-08-27T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 291.05
+    },
+    {
+      "id": 169,
+      "name": "Ico",
+      "purchase_date": "2020-04-14T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 165.11
+    },
+    {
+      "id": 170,
+      "name": "Ikaruga",
+      "purchase_date": "2019-10-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 32.43
+    },
+    {
+      "id": 171,
+      "name": "Shoot 'em up",
+      "purchase_date": "2022-12-15T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 52.29
+    },
+    {
+      "id": 172,
+      "name": "Max Payne",
+      "purchase_date": "2017-11-01T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 15
+    },
+    {
+      "id": 173,
+      "name": "Metal Gear Solid 2: Sons of Liberty",
+      "purchase_date": "2022-06-14T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 180.15
+    },
+    {
+      "id": 174,
+      "name": "Phoenix Wright: Ace Attorney",
+      "purchase_date": "2013-11-23T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 274.26
+    },
+    {
+      "id": 175,
+      "name": "Shoot 'em up",
+      "purchase_date": "2021-10-26T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 154.41
+    },
+    {
+      "id": 176,
+      "name": "Silent Hill 2",
+      "purchase_date": "2010-07-25T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 247.61
+    },
+    {
+      "id": 177,
+      "name": "Survival horror",
+      "purchase_date": "2018-07-30T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 42.8
+    },
+    {
+      "id": 178,
+      "name": "Super Smash Bros. Melee",
+      "purchase_date": "2010-01-30T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 175.24
+    },
+    {
+      "id": 179,
+      "name": "Tony Hawk's Pro Skater 3",
+      "purchase_date": "2020-05-15T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 191.39
+    },
+    {
+      "id": 180,
+      "name": "Battlefield 1942",
+      "purchase_date": "2015-02-05T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 219.55
+    },
+    {
+      "id": 181,
+      "name": "The Elder Scrolls III: Morrowind",
+      "purchase_date": "2012-04-17T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 274.14
+    },
+    {
+      "id": 182,
+      "name": "Eternal Darkness: Sanity's Requiem",
+      "purchase_date": "2016-06-03T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 231.36
+    },
+    {
+      "id": 183,
+      "name": "Survival horror",
+      "purchase_date": "2014-06-24T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 105.61
+    },
+    {
+      "id": 184,
+      "name": "Grand Theft Auto: Vice City",
+      "purchase_date": "2021-01-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 116.51
+    },
+    {
+      "id": 185,
+      "name": "Kingdom Hearts",
+      "purchase_date": "2011-01-11T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 115.76
+    },
+    {
+      "id": 186,
+      "name": "The Legend of Zelda: The Wind Waker",
+      "purchase_date": "2011-02-26T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 293.02
+    },
+    {
+      "id": 187,
+      "name": "Metroid Prime",
+      "purchase_date": "2015-02-11T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 144.88
+    },
+    {
+      "id": 188,
+      "name": "Soulcalibur II",
+      "purchase_date": "2013-10-07T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 278.37
+    },
+    {
+      "id": 189,
+      "name": "Tom Clancy's Splinter Cell",
+      "purchase_date": "2023-07-31T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 222.7
+    },
+    {
+      "id": 190,
+      "name": "Warcraft III: Reign of Chaos",
+      "purchase_date": "2012-10-07T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 140.47
+    },
+    {
+      "id": 191,
+      "name": "Beyond Good &amp; Evil",
+      "purchase_date": "2011-06-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 232.65
+    },
+    {
+      "id": 192,
+      "name": "F-Zero GX",
+      "purchase_date": "2018-01-09T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 293.3
+    },
+    {
+      "id": 193,
+      "name": "Max Payne 2: The Fall of Max Payne",
+      "purchase_date": "2019-08-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 50.91
+    },
+    {
+      "id": 194,
+      "name": "Prince of Persia: The Sands of Time",
+      "purchase_date": "2021-05-10T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 234.43
+    },
+    {
+      "id": 195,
+      "name": "Star Wars: Knights of the Old Republic",
+      "purchase_date": "2010-12-02T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 183.72
+    },
+    {
+      "id": 196,
+      "name": "WarioWare, Inc.: Mega Microgames!",
+      "purchase_date": "2016-03-26T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 167.49
+    },
+    {
+      "id": 197,
+      "name": "Burnout 3: Takedown",
+      "purchase_date": "2016-04-06T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 47.35
+    },
+    {
+      "id": 198,
+      "name": "The Chronicles of Riddick: Escape from Butcher Bay",
+      "purchase_date": "2021-12-21T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 15.68
+    },
+    {
+      "id": 199,
+      "name": "Dragon Quest VIII",
+      "purchase_date": "2010-11-09T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 65.68
+    },
+    {
+      "id": 200,
+      "name": "Gran Turismo 4",
+      "purchase_date": "2011-02-17T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 181.2
+    },
+    {
+      "id": 201,
+      "name": "Grand Theft Auto: San Andreas",
+      "purchase_date": "2018-11-03T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 232.44
+    },
+    {
+      "id": 202,
+      "name": "Half-Life 2",
+      "purchase_date": "2017-11-17T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 309.63
+    },
+    {
+      "id": 203,
+      "name": "Halo 2",
+      "purchase_date": "2013-01-05T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 214.22
+    },
+    {
+      "id": 204,
+      "name": "Katamari Damacy",
+      "purchase_date": "2017-11-16T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 55.04
+    },
+    {
+      "id": 205,
+      "name": "Metal Gear Solid 3: Snake Eater",
+      "purchase_date": "2020-03-28T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 162.34
+    },
+    {
+      "id": 206,
+      "name": "Rome: Total War",
+      "purchase_date": "2012-07-29T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 26.52
+    },
+    {
+      "id": 207,
+      "name": "The Sims 2",
+      "purchase_date": "2012-06-18T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 212.92
+    },
+    {
+      "id": 208,
+      "name": "World of Warcraft",
+      "purchase_date": "2021-12-25T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 22.34
+    },
+    {
+      "id": 209,
+      "name": "Call of Duty 2",
+      "purchase_date": "2018-11-03T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 244.66
+    },
+    {
+      "id": 210,
+      "name": "Civilization IV",
+      "purchase_date": "2018-08-30T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 286.94
+    },
+    {
+      "id": 211,
+      "name": "Devil May Cry 3: Dante's Awakening",
+      "purchase_date": "2010-10-19T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 236.39
+    },
+    {
+      "id": 212,
+      "name": "God of War",
+      "purchase_date": "2021-08-12T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 124.59
+    },
+    {
+      "id": 213,
+      "name": "Guitar Hero",
+      "purchase_date": "2015-08-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 221.62
+    },
+    {
+      "id": 214,
+      "name": "Psychonauts",
+      "purchase_date": "2016-04-24T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 305.84
+    },
+    {
+      "id": 215,
+      "name": "Resident Evil 4",
+      "purchase_date": "2010-04-24T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 166.82
+    },
+    {
+      "id": 216,
+      "name": "Survival horror",
+      "purchase_date": "2012-04-04T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 92.01
+    },
+    {
+      "id": 217,
+      "name": "Shadow of the Colossus",
+      "purchase_date": "2013-02-23T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 278.28
+    },
+    {
+      "id": 218,
+      "name": "Tom Clancy's Splinter Cell: Chaos Theory",
+      "purchase_date": "2011-08-02T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 239.21
+    },
+    {
+      "id": 219,
+      "name": "Company of Heroes",
+      "purchase_date": "2020-05-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 102.16
+    },
+    {
+      "id": 220,
+      "name": "The Elder Scrolls IV: Oblivion",
+      "purchase_date": "2020-12-02T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 298.46
+    },
+    {
+      "id": 221,
+      "name": "Gears of War",
+      "purchase_date": "2014-02-22T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 136.99
+    },
+    {
+      "id": 222,
+      "name": "Hitman: Blood Money",
+      "purchase_date": "2016-02-24T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 115.09
+    },
+    {
+      "id": 223,
+      "name": "The Legend of Zelda: Twilight Princess",
+      "purchase_date": "2015-04-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 114.98
+    },
+    {
+      "id": 224,
+      "name": "Ōkami",
+      "purchase_date": "2015-05-17T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 23.78
+    },
+    {
+      "id": 225,
+      "name": "Wii Sports",
+      "purchase_date": "2014-12-27T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 136.09
+    },
+    {
+      "id": 226,
+      "name": "BioShock",
+      "purchase_date": "2016-10-20T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 245.68
+    },
+    {
+      "id": 227,
+      "name": "Call of Duty 4: Modern Warfare",
+      "purchase_date": "2021-01-29T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 282.59
+    },
+    {
+      "id": 228,
+      "name": "God of War II",
+      "purchase_date": "2022-02-25T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 244.38
+    },
+    {
+      "id": 229,
+      "name": "Halo 3",
+      "purchase_date": "2014-10-24T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 130
+    },
+    {
+      "id": 230,
+      "name": "Mass Effect",
+      "purchase_date": "2023-10-21T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 141.76
+    },
+    {
+      "id": 231,
+      "name": "Portal",
+      "purchase_date": "2021-06-27T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 277.39
+    },
+    {
+      "id": 232,
+      "name": "Rock Band",
+      "purchase_date": "2023-03-28T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 101.1
+    },
+    {
+      "id": 233,
+      "name": "Super Mario Galaxy",
+      "purchase_date": "2010-08-10T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 174.67
+    },
+    {
+      "id": 234,
+      "name": "Team Fortress 2",
+      "purchase_date": "2018-01-16T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 280.7
+    },
+    {
+      "id": 235,
+      "name": "The World Ends with You",
+      "purchase_date": "2015-09-26T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 60.81
+    },
+    {
+      "id": 236,
+      "name": "Braid",
+      "purchase_date": "2010-08-24T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 226.32
+    },
+    {
+      "id": 237,
+      "name": "Burnout Paradise",
+      "purchase_date": "2015-02-05T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 149.97
+    },
+    {
+      "id": 238,
+      "name": "Dead Space",
+      "purchase_date": "2020-10-15T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 21.52
+    },
+    {
+      "id": 239,
+      "name": "Survival horror",
+      "purchase_date": "2022-08-15T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 30.3
+    },
+    {
+      "id": 240,
+      "name": "Fallout 3",
+      "purchase_date": "2013-04-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 153.39
+    },
+    {
+      "id": 241,
+      "name": "Gears of War 2",
+      "purchase_date": "2016-07-25T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 109.03
+    },
+    {
+      "id": 242,
+      "name": "Grand Theft Auto IV",
+      "purchase_date": "2013-05-23T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 286.33
+    },
+    {
+      "id": 243,
+      "name": "Left 4 Dead",
+      "purchase_date": "2022-12-06T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 254.47
+    },
+    {
+      "id": 244,
+      "name": "LittleBigPlanet",
+      "purchase_date": "2012-02-26T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 135.89
+    },
+    {
+      "id": 245,
+      "name": "Persona 4",
+      "purchase_date": "2013-02-27T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 85.4
+    },
+    {
+      "id": 246,
+      "name": "Rock Band 2",
+      "purchase_date": "2021-04-08T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 42.14
+    },
+    {
+      "id": 247,
+      "name": "Spelunky",
+      "purchase_date": "2023-09-25T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 240.21
+    },
+    {
+      "id": 248,
+      "name": "Street Fighter IV",
+      "purchase_date": "2019-01-24T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 243.19
+    },
+    {
+      "id": 249,
+      "name": "Valkyria Chronicles",
+      "purchase_date": "2012-11-06T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 154.07
+    },
+    {
+      "id": 250,
+      "name": "Angry Birds",
+      "purchase_date": "2013-03-17T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 140.64
+    },
+    {
+      "id": 251,
+      "name": "Assassin's Creed II",
+      "purchase_date": "2010-01-12T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 187.71
+    },
+    {
+      "id": 252,
+      "name": "Batman: Arkham Asylum",
+      "purchase_date": "2011-07-01T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 267.23
+    },
+    {
+      "id": 253,
+      "name": "Bayonetta",
+      "purchase_date": "2019-08-10T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 252.15
+    },
+    {
+      "id": 254,
+      "name": "Borderlands",
+      "purchase_date": "2021-05-10T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 121.86
+    },
+    {
+      "id": 255,
+      "name": "Demon's Souls",
+      "purchase_date": "2023-06-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 299.57
+    },
+    {
+      "id": 256,
+      "name": "Dragon Age: Origins",
+      "purchase_date": "2010-11-26T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 305.57
+    },
+    {
+      "id": 257,
+      "name": "League of Legends",
+      "purchase_date": "2014-01-07T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 149.2
+    },
+    {
+      "id": 258,
+      "name": "Left 4 Dead 2",
+      "purchase_date": "2017-10-12T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 75.58
+    },
+    {
+      "id": 259,
+      "name": "Plants vs. Zombies",
+      "purchase_date": "2022-02-02T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 76.38
+    },
+    {
+      "id": 260,
+      "name": "Tower defense",
+      "purchase_date": "2017-10-19T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 71.07
+    },
+    {
+      "id": 261,
+      "name": "Uncharted 2: Among Thieves",
+      "purchase_date": "2012-12-10T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 2,
+      "value": 179.95
+    },
+    {
+      "id": 262,
+      "name": "God of War III",
+      "purchase_date": "2010-12-01T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 181.57
+    },
+    {
+      "id": 263,
+      "name": "Heavy Rain",
+      "purchase_date": "2011-08-22T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 31.84
+    },
+    {
+      "id": 264,
+      "name": "Limbo",
+      "purchase_date": "2014-10-23T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 37.7
+    },
+    {
+      "id": 265,
+      "name": "Mass Effect 2",
+      "purchase_date": "2023-10-17T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 158.3
+    },
+    {
+      "id": 266,
+      "name": "Red Dead Redemption",
+      "purchase_date": "2021-04-07T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 290.88
+    },
+    {
+      "id": 267,
+      "name": "Rock Band 3",
+      "purchase_date": "2023-04-10T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 207.71
+    },
+    {
+      "id": 268,
+      "name": "StarCraft II: Wings of Liberty",
+      "purchase_date": "2020-05-30T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 175.29
+    },
+    {
+      "id": 269,
+      "name": "Super Mario Galaxy 2",
+      "purchase_date": "2014-02-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 219.29
+    },
+    {
+      "id": 270,
+      "name": "Super Meat Boy",
+      "purchase_date": "2014-06-18T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 103.01
+    },
+    {
+      "id": 271,
+      "name": "Xenoblade Chronicles",
+      "purchase_date": "2021-08-30T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 51.68
+    },
+    {
+      "id": 272,
+      "name": "Batman: Arkham City",
+      "purchase_date": "2014-11-08T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 236.62
+    },
+    {
+      "id": 273,
+      "name": "Dark Souls",
+      "purchase_date": "2012-12-14T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 188.33
+    },
+    {
+      "id": 274,
+      "name": "The Elder Scrolls V: Skyrim",
+      "purchase_date": "2017-04-22T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 3,
+      "value": 44.22
+    },
+    {
+      "id": 275,
+      "name": "Minecraft",
+      "purchase_date": "2011-03-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 283.85
+    },
+    {
+      "id": 276,
+      "name": "Sandbox",
+      "purchase_date": "2019-03-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 188.37
+    },
+    {
+      "id": 277,
+      "name": "Portal 2",
+      "purchase_date": "2017-04-10T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 23.06
+    },
+    {
+      "id": 278,
+      "name": "Dishonored",
+      "purchase_date": "2022-07-08T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 249.35
+    },
+    {
+      "id": 279,
+      "name": "Far Cry 3",
+      "purchase_date": "2022-05-08T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 50.76
+    },
+    {
+      "id": 280,
+      "name": "Journey",
+      "purchase_date": "2013-10-13T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 42.85
+    },
+    {
+      "id": 281,
+      "name": "Hotline Miami",
+      "purchase_date": "2021-08-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 72.93
+    },
+    {
+      "id": 282,
+      "name": "The Walking Dead",
+      "purchase_date": "2023-10-01T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 100.46
+    },
+    {
+      "id": 283,
+      "name": "XCOM: Enemy Unknown",
+      "purchase_date": "2019-05-21T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 1,
+      "value": 259.88
+    },
+    {
+      "id": 284,
+      "name": "BioShock Infinite",
+      "purchase_date": "2020-10-12T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 224.19
+    },
+    {
+      "id": 285,
+      "name": "Dota 2",
+      "purchase_date": "2016-05-08T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 205.81
+    },
+    {
+      "id": 286,
+      "name": "Grand Theft Auto V",
+      "purchase_date": "2021-02-24T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 109.25
+    },
+    {
+      "id": 287,
+      "name": "The Last of Us",
+      "purchase_date": "2021-09-26T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 291.65
+    },
+    {
+      "id": 288,
+      "name": "Destiny",
+      "purchase_date": "2023-10-19T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 102.06
+    },
+    {
+      "id": 289,
+      "name": "Shovel Knight",
+      "purchase_date": "2011-03-24T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 16.97
+    },
+    {
+      "id": 290,
+      "name": "Bloodborne",
+      "purchase_date": "2023-12-29T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 76.03
+    },
+    {
+      "id": 291,
+      "name": "Undertale",
+      "purchase_date": "2012-04-22T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 142.9
+    },
+    {
+      "id": 292,
+      "name": "The Witcher III: Wild Hunt",
+      "purchase_date": "2015-01-04T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 3,
+      "value": 233.69
+    },
+    {
+      "id": 293,
+      "name": "Inside",
+      "purchase_date": "2011-01-14T02:00:00.000Z",
+      "media_type": "Physical",
+      "store": 2,
+      "value": 60.8
+    },
+    {
+      "id": 294,
+      "name": "Overwatch",
+      "purchase_date": "2010-03-24T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 79.53
+    },
+    {
+      "id": 295,
+      "name": "Stardew Valley",
+      "purchase_date": "2010-02-13T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 1,
+      "value": 96.72
+    },
+    {
+      "id": 296,
+      "name": "Uncharted 4: A Thief's End",
+      "purchase_date": "2017-06-04T03:00:00.000Z",
+      "media_type": "Physical",
+      "store": 4,
+      "value": 274.18
+    },
+    {
+      "id": 297,
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "purchase_date": "2016-10-11T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 279.39
+    },
+    {
+      "id": 298,
+      "name": "Super Mario Odyssey",
+      "purchase_date": "2010-01-29T02:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 213.93
+    },
+    {
+      "id": 299,
+      "name": "God of War",
+      "purchase_date": "2016-06-11T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 111.42
+    },
+    {
+      "id": 300,
+      "name": "Red Dead Redemption 2",
+      "purchase_date": "2021-08-16T03:00:00.000Z",
+      "media_type": "Digital",
+      "store": 4,
+      "value": 270.56
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Nintendo eShop"
+    },
+    {
+      "id": 2,
+      "name": "PlayStation Store"
+    },
+    {
+      "id": 3,
+      "name": "Xbox Store"
+    },
+    {
+      "id": 4,
+      "name": "Steam"
+    }
+  ],
+}

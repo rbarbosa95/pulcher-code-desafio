@@ -1,0 +1,72 @@
+@import 'variables';
+
+:root {
+  @each $color, $value in $custom-colors{
+    --#{$prefix}#{$color}: #{$value};
+  }
+  --bs-body-bg: #F4F7FA;
+}
+
+@each $color, $value in $custom-colors {
+  .#{$prefix}#{'bg-'}#{$color} {
+    background-color: $value;
+  }
+}
+
+@each $color, $value in $custom-colors {
+  .#{$prefix}#{'text-'}#{$color} {
+    color: $value;
+  }
+}
+
+body {
+  color: $default;
+}
+
+h1 {
+  color: $default;
+  font-size: 1.5rem;
+}
+
+.app-btn {
+  text-decoration: none;
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+
+.pagination-container {
+  display: flex;
+  column-gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.paginate-buttons {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 1.25rem;
+  cursor: pointer;
+  background-color: var(--bs-gray-100);
+  border: 1px solid var(--bs-gray-200);
+  color: black;
+
+  &:hover {
+    background-color: var(--bs-gray-200);
+  }
+}
+
+.active-page {
+  background-color: $primary;
+  border: 1px solid $primary;
+  color: var(--bs-white);
+
+  &:hover {
+    background-color: $secondary;
+  }
+}
