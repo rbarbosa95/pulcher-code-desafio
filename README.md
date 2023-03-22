@@ -1,74 +1,3 @@
-# pulcher-code-desafio
-
-This template should help get you started developing with Vue 3 in
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-
-
 <h1 align="center">
     <img alt="Stack Games" title="#StackGames" src="static/logo.svg" />
 </h1>
@@ -80,7 +9,6 @@ npm run lint
  <a href="#-como-executar-o-projeto">Como executar</a> • 
  <a href="#-tecnologias">Tecnologias</a> •  
  <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
 </p>
 
 
@@ -112,63 +40,90 @@ Stack Games é uma plataforma online que permite que você liste todos os seus j
 
 ## 🚀 Como executar o projeto
 
-Este projeto é divido em três partes:
-1. Backend (pasta backend) 
-2. Frontend (pasta frontend)
+Este projeto não tem back-end, mas é necessário subir o [JSON Server](https://github.com/typicode/json-server)
 
-💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
+### Recomendações
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
 
 ### Pré-requisitos
 
 - [Git](https://git-scm.com)
-- [Node.js](https://nodejs.org/en/)
+- [Node.js (v18.14.2)](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/)
+- [JSON Server](https://github.com/typicode/json-server)
 
-#### 🎲 Rodando o Backend (servidor)
 
-```bash
+#### 🧭 Subindo a aplicação
 
-# Clone este repositório
-$ git clone https://github.com/rbarbosa95/fisio-joelho-em-foco.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd fisio-joelho-em-foco
-
-# Vá para a pasta backend
-$ cd backend
-
-# Instale as dependências
-$ yarn
-
-# Execute a aplicação em modo de desenvolvimento
-$ yarn develop
-
-# O backend inciará na porta:1337 - acesse http://localhost:1337 
-
-```
-
-#### 🧭 Rodando a aplicação web (Frontend)
+##### JSON Server
 
 ```bash
 
+# Instale globalmente o json-server
+$ npm install -g json-server
+
 # Clone este repositório
-$ git clone https://github.com/rbarbosa95/fisio-joelho-em-foco.git
+$ git clone git@github.com:rbarbosa95/pulcher-code-desafio.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd fisio-joelho-em-foco
+$ cd pulcher-code-desafio
 
-# Vá para a pasta da aplicação Front End
-$ cd web
+# Vá para a pasta Json
+$ cd json
+
+# Execute o seguinte comando
+$ json-server --watch db.json --port 1337
+
+# O JSON server será aberto na porta:1337 - acesse http://localhost:1337
+
+```
+
+##### Projeto
+
+```bash
+
+# Clone este repositório, caso não tenha feito
+$ git clone git@github.com:rbarbosa95/pulcher-code-desafio.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd pulcher-code-desafio
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd pulcher-code-desafio
 
 # Instale as dependências
 $ yarn
 
 # Execute a aplicação em modo de desenvolvimento
-$ yarn serve
+$ yarn dev
 
-# A aplicação será aberta na porta:8080 - acesse http://localhost:8080
+# A aplicação será aberta na porta:5173 -  http://localhost:5173/
+
 
 ```
+---
+
+#### 🪲 Rodando os testes
+
+##### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+yarn test:unit
+```
+
+##### Run Covarege Test with [Vitest](https://vitest.dev/)
+
+```sh
+yarn test:coverage
+```
+
+##### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+
+```sh
+yarn test:e2e:dev
+```
+
 
 ---
 
@@ -176,30 +131,16 @@ $ yarn serve
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Frontend**  ([Vue](https://vuejs.org/)  +  [vuetifyjs](https://vuetifyjs.com/))
+#### **Frontend**  ([Vue3](https://vuejs.org/)
 
 -   **[Vue Router](https://router.vuejs.org/)**
--   **[Vuex](https://vuex.vuejs.org/)**
+-   **[Pinia](https://pinia.vuejs.org/)**
 -   **[Axios](https://github.com/axios/axios)**
+-   **[Cypress](https://www.cypress.io/)**
+-   **[Vitest](https://vitest.dev/)**
 
 > Veja o arquivo  [package.json](https://github.com/rbarbosa95/fisio-repo-project/blob/master/frontend/package.json)
 
-#### **Backend**  ([Strapi](https://strapi.io/))
-
--   **[KnexJS](http://knexjs.org/)**
--   **[SQLite](https://github.com/mapbox/node-sqlite3)**
-
-
-> Veja o arquivo  [package.json](https://github.com/rbarbosa95/fisio-repo-project/blob/master/backend/package.json)
-
----
-
-## 🎮 Como contribuir para o projeto
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
 
 ---
 
@@ -219,13 +160,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
   </tr>
 </table>
 </div>
-
----
-
-## 📝 Licença
-
-Este projeto esta sobe a licença [MIT](./LICENSE).
-
-Feito com 💚 por [Ramon Barbosa](https://www.linkedin.com/in/ramon-guimaraes/)
 
 ---
